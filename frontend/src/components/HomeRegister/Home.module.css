@@ -1,0 +1,39 @@
+.container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: roboto;
+  width: 70%;
+  margin-top: 150px;
+
+}
+.register0{
+    margin-bottom: 20px;
+}
+.register1 input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  outline: none;
+  font-family: roboto;
+}
+.register1{
+    margin-top: 10px;
+}
+.register button{
+    margin-top: 10px;
+    font-family: roboto;
+
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 4000px){
+    .container{
+        width: 40%;
+    }
+   
+}
