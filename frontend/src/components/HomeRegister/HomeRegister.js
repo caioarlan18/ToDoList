@@ -43,8 +43,13 @@ export function HomeRegister() {
 
                 <form action="">
                     <div className={styles.register1}>
-                        <label htmlFor="Nome">Qual seu nome completo?</label>
-                        <input type="text" value={name} onChange={handleName} />
+                        <label htmlFor="Nome">Primeiro nome ou apelido</label>
+                        <input type="text"
+                            value={name}
+                            onChange={handleName}
+                            maxLength={12}
+
+                        />
 
                     </div>
                     <div className={styles.register1}>

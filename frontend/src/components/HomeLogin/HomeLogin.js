@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Link } from 'react-router-dom';
 import { useState } from 'react';
 import api from '../apiConfig/api'
 import { useNavigate } from 'react-router-dom';
+
 export function HomeLogin() {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
@@ -21,7 +22,6 @@ export function HomeLogin() {
                 email,
                 password
             })
-            alert(response.data.msg)
             localStorage.setItem('token', response.data.token)
             localStorage.setItem('id', response.data.id)
             navigate('/logged')

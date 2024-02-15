@@ -1,0 +1,132 @@
+.logged {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.logged1 {
+    width: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    border-radius: 5px;
+
+}
+
+.logged1 form {
+    padding: 30px;
+    width: 80%;
+}
+
+.logged1 form div {
+    margin-top: 20px;
+}
+
+.logged1 input {
+    width: 100%;
+    margin-top: 5px;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.logged1 textarea {
+    width: 100%;
+    margin-top: 5px;
+    outline: none;
+    resize: none;
+    font-family: roboto;
+    font-size: 15px;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.logged1 h1 {
+    font-family: roboto;
+    font-size: 25px;
+}
+
+.logged1 button {
+    margin-top: 10px;
+    width: 40%;
+    height: 30px;
+    background-color: #0170b9;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.logged1 label {
+    font-family: roboto;
+    font-family: 15px;
+}
+
+
+/* notes */
+
+.logged2 {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+span {
+    cursor: pointer;
+    color: red;
+
+}
+
+.notes {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.notes1 {
+    width: 100%;
+
+}
+
+.notes input,
+.notes textarea {
+    border: 0;
+    resize: none;
+    outline: none;
+    font-family: roboto;
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
+.notes input {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.notes textarea {
+    font-size: 15px;
+    margin-top: 20px;
+    height: auto;
+}
+
+@media screen and (min-width: 992px) and (max-width: 4000px) {
+    .logged {
+        flex-direction: row;
+    }
+
+    .logged1 {
+        height: 300px;
+    }
+}
